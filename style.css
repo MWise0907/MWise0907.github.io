@@ -1,7 +1,7 @@
 body {
     background-image: url("https://images.fineartamerica.com/images/artworkimages/mediumlarge/3/fnaf-security-breach-arcade-carpet-design-stewart-russell.jpg");
     padding: 10px;
-   color:rgb(132, 37, 147);
+    color: rgb(132, 37, 147);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
@@ -29,6 +29,7 @@ h1 {
 
 #nav-ul {
     list-style-image: none;
+    color: rgb(132, 37, 147);
 }
 
 .nav-li {
@@ -44,7 +45,7 @@ a {
 /* main container area beneath menu */
 main {
     background-image: url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/4e3c4cb4-2604-423b-94c2-76bb94e8fc42/dey4qcm-b9bc5ab7-dd90-4f68-9abc-135bdd2a478c.png/v1/fill/w_1280,h_1280,q_80,strp/security_breach_ish_carpet_design_by_thepencilwithnoname_dey4qcm-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTI4MCIsInBhdGgiOiJcL2ZcLzRlM2M0Y2I0LTI2MDQtNDIzYi05NGMyLTc2YmI5NGU4ZmM0MlwvZGV5NHFjbS1iOWJjNWFiNy1kZDkwLTRmNjgtOWFiYy0xMzViZGQyYTQ3OGMucG5nIiwid2lkdGgiOiI8PTEyODAifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.h8G0i04bSdgrarQyDpg3NAzYXqswxmlSJWvr4OjSjNQ");
-    display: flex;
+    display:flex;
 }
 
 .sidebar {
@@ -72,6 +73,7 @@ h2,
 h3 {
     margin: 0px;
 }
+
 /* portfolio styles */
 .content h1 {
     color: black;
@@ -83,17 +85,26 @@ h3 {
 }
 
 #portfolio li {
-    background: #fff;
     padding: 10px;
     border-radius: 10px;
     margin-bottom: 10px;
 }
 
-#portfolio li:hover {
-    background: #eee;
-}
+#portfolio li:hover {}
 
 #portfolio a {
-    text-decoration: none;
-    color: #454545;
+    text-decoration: double;
+    color: #000000;
+}
+
+#color {
+    color: rgb(132, 37, 147);
+}
+
+#Head {
+    color: yellow;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 }

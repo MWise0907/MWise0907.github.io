@@ -86,6 +86,8 @@ let ctx;
 
 // setup function variable
 let setup;
+if (player >= 2)
+Application.LoadLevel("Winning");
 
 let halleImage;
 let animationDetails = {};
