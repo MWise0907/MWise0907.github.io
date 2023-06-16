@@ -54,7 +54,7 @@
 
 			// changes the text displayed on the Box
 			function changeBoxText(newText) {
-				box.text(newText);
+				box.text(points);
 				positionX = 0;
 			}
 
@@ -66,6 +66,7 @@
 			var positionX = 0;
 			var points = 0;
 			var speed = 10
+			var randNum = Math.random() * 100;
 
 			
 			/* 
@@ -77,9 +78,9 @@
 				positionX = positionX + speed
 				moveBoxTo(positionX);
 				if (positionX >= boardWidth)
-			speed = speed - 10
+			speed = -speed
 			if (positionX <= 0)
-			speed = speed + 10
+			speed = +speed + 10
 			};
 
 			/* 
